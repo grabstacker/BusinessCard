@@ -1,21 +1,22 @@
-import email from "../images/email.png";
+import emailpic from "../images/email.png";
 export default function Main() {
+  const email = "grabstacker@outlook.com";
+  const linkden = "https://www.linkedin.com/in/brad-kay-ab17b2125/";
   return (
     <>
       <div className={"contact"}>
         <span className="title">Brad Kay</span>
         <span className="sub-title">Front-end developer</span>
-        <div>
-          <button className="btn-default">
-            <img src={email} alt="emailIcon" className="icons" />
-            Email
+        <span>
+          <button className="btn-default button-spacing">
+            <img src={emailpic} alt="emailIcon" className="icons" />
+            <a href={"mailto:" + email}>email</a>
           </button>
-          <button className="btn-primary">
-            {" "}
-            <img src={email} alt="emailIcon" className="icons" />
-            Linkden
+          <button className="btn-default button-spacing">
+            <img src={emailpic} alt="emailIcon" className="icons" />
+            <a href={linkden}>linkden</a>
           </button>
-        </div>
+        </span>
       </div>
 
       <div className="about">
