@@ -28,6 +28,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+.profile{
+  border-radius: 15px 15px 0px 0px;
+  width: 400px;
+  height: 400px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: #2b2b2b;
+  color: white;
+  height: 120px;
+
+}
+.text{
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+  max-width: 300px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+ 
+  background-color: #2b2b2b;
+}
+.sub-title{
+  font-size: 15px;
+  color: #fea760;
+}
+.text-title{
+  font-size: 22px;
+    margin-left: 20px;
+  color: white;
+  
+}
+.title{
+  font-size: 45px;
+}
+.content {
+  
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 10px;
+  align-items: center;
+  
+
+}
+.icons{
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+ 
+  
+}
+.button1 {
+  transition-duration: 0.4s;
+  margin: 10px;
+  width: 90px;
+  border-radius: 2px 2px 2px 2px;
+
+  
+}
+
+.button1:hover {
+  background-color: #343534;
+  /* Green */
+  color: white;
 }
