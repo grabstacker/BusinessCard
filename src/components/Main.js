@@ -4,13 +4,13 @@ export default function Main() {
     <>
       <div className={"contact"}>
         <span className="title">Brad Kay</span>
-        <span className="sub-title">Front end developer</span>
+        <span className="sub-title">Front-end developer</span>
         <div>
-          <button className="button1">
+          <button className="btn-default">
             <img src={email} alt="emailIcon" className="icons" />
             Email
           </button>
-          <button className="button1">
+          <button className="btn-primary">
             {" "}
             <img src={email} alt="emailIcon" className="icons" />
             Linkden
@@ -21,20 +21,24 @@ export default function Main() {
       <div className="about">
         <span className="text-title">About</span>
         <span className="text">
-          Front end developer Which, in this case, would be equivalent as the
-          box is not allowed to flex and therefore retains the initial width set
-          by flex-basis. Flex-basis defines the default size of an element
-          before the remaining space is distributed so if the element were
-          allowed to flex (grow/shrink) it may not be 50% of the width of the
-          page.
+          <p>
+            Hello! I am a full stack developer that is interested in React
+            JavaScript looking to expand into new technologies and have NOSQL
+            and application deployment experience. I have completed the bachelor
+            of information technolgy degree and look forward to start coding
+            again with some new project ideas! I am looking to learn typescript
+            as this is becoming a common occurance in the requirements of code
+            that I look at on the web.
+          </p>
         </span>
         <span className="text-title">Interests</span>
         <span className="text">
-          Which, in this case, would be equivalent as the box is not allowed to
-          flex and therefore retains the initial width set by flex-basis.
-          Flex-basis defines the default size of an element before the remaining
-          space is distributed so if the element were allowed to flex
-          (grow/shrink) it may not be 50% of the width of the page.
+          <p>
+            I enjoy challenges and learning new technologies while contributing
+            to usefull and creative applications. I am interested in blockchain
+            technolgy but spend my spare time reading about the latest physics
+            and astronomy discoveries.
+          </p>
         </span>
       </div>
     </>
